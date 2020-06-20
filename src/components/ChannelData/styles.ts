@@ -6,14 +6,14 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: var(--primary);
+  background-color: var(--primary);  
 `
 
 export const Messages = styled.div`
   padding: 20px 0;
   display: flex;
   flex-direction: column;
-  max-height: calc(100vh -46px -68px);
+  max-height: calc(100vh - 46px - 68px);
   overflow-y: scroll;
 
   ::-webkit-scrollbar {
